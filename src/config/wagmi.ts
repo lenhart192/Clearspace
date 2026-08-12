@@ -3,7 +3,7 @@ import { createConfig, http } from 'wagmi'
 import { base } from 'wagmi/chains'
 import { baseAccount, injected } from 'wagmi/connectors'
 
-export const BUILDER_CODE = ''
+export const BUILDER_CODE = 'bc_flmpi7hx'
 
 export const DATA_SUFFIX = BUILDER_CODE
   ? Attribution.toDataSuffix({ codes: [BUILDER_CODE] })
